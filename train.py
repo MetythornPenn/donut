@@ -159,6 +159,10 @@ def train(config):
 
     trainer.fit(model_module, data_module, ckpt_path=config.get("resume_from_checkpoint_path", None))
 
+    #...
+    trainer.save_checkpoint(f"{Path(config.result_path)}/{config.exp_name}/{config.exp_version}/model_checkpoint.ckpt")
+    #...
+
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()

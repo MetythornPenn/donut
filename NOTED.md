@@ -27,4 +27,6 @@
 - cord dataset : https://github.com/clovaai/cord?tab=readme-ov-file
 - synth tiger : https://github.com/clovaai/synthtiger
 - synth Dog : inside donut code 
-- 
+- fine tune donut: https://www.freecodecamp.org/news/how-to-fine-tune-the-donut-model/
+- infer cord code : https://colab.research.google.com/drive/1NMSqoIZ_l39wyRD7yVjw2FIuU2aglzJi?usp=sharing#scrollTo=hsPb55wLT0ci
+- annotator : https://python.plainenglish.io/empower-your-donut-model-for-receipts-with-self-annotated-data-51fc882b7229
