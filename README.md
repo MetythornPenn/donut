@@ -169,10 +169,17 @@ This is the configuration of Donut model training on [CORD](https://github.com/c
 We ran this with a single NVIDIA A100 GPU.
 
 ```bash
+# CORD : dataset from hugging face
 python train.py --config config/train_cord.yaml \
                 --pretrained_model_name_or_path "naver-clova-ix/donut-base" \
                 --dataset_name_or_paths '["naver-clova-ix/cord-v2"]' \
-                --exp_version "test_experiment"    
+                --exp_version "test_experiment"   
+
+# CORD : dataset local 
+python train.py --config config/train_cord.yaml \
+                --pretrained_model_name_or_path "naver-clova-ix/donut-base" \
+                --dataset_name_or_paths '["dataset/CORD"]' \
+                --exp_version "cord_local_30eps"  
   .
   .                                                                                                                                                                                                                                         
 Prediction: <s_menu><s_nm>Lemon Tea (L)</s_nm><s_cnt>1</s_cnt><s_price>25.000</s_price></s_menu><s_total><s_total_price>25.000</s_total_price><s_cashprice>30.000</s_cashprice><s_changeprice>5.000</s_changeprice></s_total>
@@ -211,16 +218,11 @@ Some important arguments:
 - `--pretrained_model_name_or_path` : string format, the model name in Hugging Face modelhub or local path.
 - `--save_path`: file path to save predictions and scores.
 
-## How to Cite
-If you find this work useful to you, please cite:
-```bibtex
-@inproceedings{kim2022donut,
-  title     = {OCR-Free Document Understanding Transformer},
-  author    = {Kim, Geewook and Hong, Teakgyu and Yim, Moonbin and Nam, JeongYeon and Park, Jinyoung and Yim, Jinyeong and Hwang, Wonseok and Yun, Sangdoo and Han, Dongyoon and Park, Seunghyun},
-  booktitle = {European Conference on Computer Vision (ECCV)},
-  year      = {2022}
-}
-```
+## Reference
+
+- [fine-tuning-donut](https://www.philschmid.de/fine-tuning-donut)
+
+
 
 ## License
 

@@ -1,3 +1,8 @@
+# custom 
+flagged/*
+synthdog/outputs/*
+
+
 core.*
 *.bin
 .nfs*

@@ -49,8 +49,9 @@ if __name__ == "__main__":
     pretrained_model = DonutModel.from_pretrained(args.pretrained_path)
 
     if torch.cuda.is_available():
-        pretrained_model.half()
+        pretrained_model.half()  # using gpu
         device = torch.device("cuda")
+        # device = torch.device("cpu") # using cpu
         pretrained_model.to(device)
 
     pretrained_model.eval()

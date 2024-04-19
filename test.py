@@ -85,8 +85,8 @@ def test(args):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--pretrained_model_name_or_path", type=str)
-    parser.add_argument("--dataset_name_or_path", type=str)
+    parser.add_argument("--pretrained_model_name_or_path", type=str, default="./result/train_synthdog/synthdog_50eps")
+    parser.add_argument("--dataset_name_or_path", type=str, default="./synthdog/outputs/SynthDoG_en/test/")
     parser.add_argument("--split", type=str, default="test")
     parser.add_argument("--task_name", type=str, default=None)
     parser.add_argument("--save_path", type=str, default=None)

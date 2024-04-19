@@ -46,7 +46,6 @@ nvidia-nvtx-cu12==12.1.105
 oauthlib==3.2.2
 packaging==24.0
 pandas==2.0.3
-pillow==10.3.0
 protobuf==5.26.1
 pyarrow==15.0.2
 pyarrow-hotfix==0.6
@@ -85,3 +84,4 @@ xxhash==3.4.1
 yarl==1.9.4
 zipp==3.18.1
 zss==1.2.0
+Pillow==9.5.0
