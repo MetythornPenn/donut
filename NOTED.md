@@ -23,12 +23,13 @@
 
 
 ## resource
-
 - cord dataset : https://github.com/clovaai/cord?tab=readme-ov-file
 - synth tiger : https://github.com/clovaai/synthtiger
 - synth Dog : inside donut code 
 - fine tune donut 1: https://www.freecodecamp.org/news/how-to-fine-tune-the-donut-model/
 - fine tune donut 2: https://colab.research.google.com/github/NielsRogge/Transformers-Tutorials/blob/master/Donut/CORD/Fine_tune_Donut_on_a_custom_dataset_(CORD)_with_PyTorch_Lightning.ipynb#
+- fine tune donut 3 * : https://www.philschmid.de/fine-tuning-donut
 - infer cord code : https://colab.research.google.com/drive/1NMSqoIZ_l39wyRD7yVjw2FIuU2aglzJi?usp=sharing#scrollTo=hsPb55wLT0ci
 - annotator : https://python.plainenglish.io/empower-your-donut-model-for-receipts-with-self-annotated-data-51fc882b7229
 - convert to donut format : https://github.com/EivindKjosbakken/sparrow/blob/main/sparrow-ui/prepareData.py
+- Pre-training Donut : https://stackoverflow.com/questions/75248458/pre-training-donut-document-understanding-transformer

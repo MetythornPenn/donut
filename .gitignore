@@ -1,6 +1,8 @@
 # custom 
 flagged/*
 synthdog/outputs/*
+data/*
+data-SROIE/*
 
 
 core.*
